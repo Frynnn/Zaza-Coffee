@@ -23,6 +23,11 @@ body {
   background-color: var(--bg);
   color: var(--wt);
 }
+
+a {
+  text-decoration: none;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -42,6 +47,13 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: var(--wt);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .navbar .navbar-nav a {
@@ -262,7 +274,19 @@ hr {
   line-height: 1.4;
 }
 /* Gallery section */
+.gallery-carousel {
+  display: flex;
+  margin: 0 auto;
+}
 
+.carousel {
+  width: 700px;
+}
+
+.carousel-item {
+  height: 480px !important;
+  text-align: center !important;
+}
 
 /* Menu section */
 
